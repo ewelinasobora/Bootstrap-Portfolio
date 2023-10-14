@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ewelina // Web Developer</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <!-- main logo / nav -->
+  <header id="navBar">
+    <nav id="navigation">
+      <ul>
+        <li> <a href="#about">About Me</a></li>
+        <li> <a href="#work">Work</a></li>
+        <li> <a href="#contact">Contact Me</a></li>
+        <li> <a href="https://ewelina.dev">Resume</a></li>
+      </ul>
+    </nav>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ewelina Sobora</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <div>
+      <img src="./images/me.jpg" alt="me">
+      <h2 class="highlighted-header">Web Developer</h2>
+    </div>
+  </section>
+
+  <main class="page-wrapper" class="column">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <div id="about-header">
+        <h2>About Me</h2>
+      </div>
+      <div id="about-paragraph">
+        <p>
+          Hi, my name is Ewelina and I specialize in web development. My interest in logic and the process of bringing
+          innovative ideas to fruition has been a lifelong passion. This journey began during my undergraduate studies,
+          where I pursued a BSc in Mathematics and Economics, along with International Relations in my hometown in
+          Poland. It was here that I was first introduced to the world of coding, and I was immediately drawn to its
+          expressive and creative potential. After completing my degree, I embarked on a career as a Sales
+          Representative in Cracow, gaining valuable insights into the business world. However, my passion for
+          technology continued to grow and I made the bold decision to pursue my ambitions in London. Dedicated to the
+          pursuit of continuous learning and skills development, I am committed to evolving my expertise in this field.
+        </p>
+      </div>
+    </section>
+
+    <!-- portfolio container -->
+    <section class="page-section" id="work">
+      <div id="work-header">
+        <h2>Work</h2>
+      </div>
+      <div id="work-content">
+        <div id="portfolio-1" class="portfolioGridArea">
+          <div class="heading">
+            <p class="project-title">Surf Report</p>
+            <p class="project-description">MERN Stack</p>
+          </div>
+        </div>
+        <div id="portfolio-2" class="portfolioGridArea">
+          <div class="heading">
+            <p class="project-title">LED Wall</p>
+            <p class="project-description">Node/IoT</p>
+          </div>
+        </div>
+        <div id="portfolio-3" class="portfolioGridArea">
+          <div class="heading">
+            <p class="project-title">Calculator</p>
+            <p class="project-description">React/Javascript/CSS</p>
+          </div>
+        </div>
+        <div id="portfolio-4" class="portfolioGridArea">
+          <div class="heading">
+            <p class="project-title">Pastel Puzzles</p>
+            <p class="project-description">MERN Stack</p>
+          </div>
+        </div>
+        <div id="portfolio-5" class="portfolioGridArea">
+          <div class="heading">
+            <p class="project-title">Run Buddy</p>
+            <p class="project-description">HTML/CSS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <div id="contact-header">
+        <h2>Contact Me</h2>
+      </div>
+      <div id="contact-list">
+        <ul>
+          <li><a href="#number">555.555.55555</a></li>
+          <li><a href="#email">me@ewelina.dev</a></li>
+          <li><a href="https://github.com/ewelinasobora">Github</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Spotify</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
