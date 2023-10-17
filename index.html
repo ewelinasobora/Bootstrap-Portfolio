@@ -1,129 +1,157 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ewelina // Web Developer</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css" />
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ewelina // Web Developer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
-  <!-- Navigation -->
-  <header id="navBar">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><h1>🤘🏼</h1></a>
-        <ul class="navbar-nav ms-auto" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#work">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://ewelina.dev">Resume</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div class="p-5 bg-secondary text-warning">
-      <div class="hero-banner-content">
-        <div id="hero-banner-info">
-          <h2>Ewelina Sobora</h2>
-          <h3>Software Developer</h3>
+  <body>
+    <!-- Navigation -->
+    <header id="navBar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h1>🤘🏼</h1></a>
+          <ul class="navbar-nav ms-auto" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://ewelina.dev">Resume</a>
+            </li>
+          </ul>
         </div>
-        <img src="./images/me.jpg" alt="me" id="profile-image">
+      </nav>
+    </header>
+
+    <!-- hero banner -->
+    <section class="hero-banner">
+      <div class="p-5 bg-secondary text-warning">
+        <div class="hero-banner-content">
+          <div id="hero-banner-info">
+            <h2>Ewelina Sobora</h2>
+            <h3>Software Developer</h3>
+          </div>
+          <img src="./images/me.jpg" alt="me" id="profile-image">
+        </div>
+        <p id="hero-banner-quote">Oportunities don't happen, you create them.<br>-
+          Chris Grosser</p>
       </div>
-      <p id="hero-banner-quote">Oportunities don't happen, you create them.<br>- Chris Grosser</p>
+    </section>
+
+    <div class="container-fluid">
+      <main class="page-wrapper">
+        <!-- portfolio container -->
+        <section class="page-section" id="work">
+          <div id="work-header">
+            <h2>Work</h2>
+          </div>
+          <div id="work-content">
+            <div class="row">
+              <div class="col">
+                <div id="portfolio-1" class="portfolioGridArea">
+                <div class="heading">
+                    <p class="project-title">Surf Report</p>
+                    <p class="project-description">MERN Stack</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div id="portfolio-2" class="portfolioGridArea">
+                  <div class="heading">
+                    <p class="project-title">LED Wall</p>
+                    <p class="project-description">Node/IoT</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div id="portfolio-3" class="portfolioGridArea">
+                  <div class="heading">
+                    <p class="project-title">Calculator</p>
+                    <p class="project-description">React/Javascript/CSS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div id="portfolio-4" class="portfolioGridArea">
+                  <div class="heading">
+                    <p class="project-title">Pastel Puzzles</p>
+                    <p class="project-description">MERN Stack</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div id="portfolio-5" class="portfolioGridArea">
+                  <div class="heading">
+                    <p class="project-title">Run Buddy</p>
+                    <p class="project-description">HTML/CSS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- about me -->
+        <section class="page-section" id="about">
+          <div id="about-header">
+            <h2>About Me</h2>
+          </div>
+          <div id="about-paragraph">
+            <p>
+              Hi, my name is Ewelina and I specialize in web development. My
+              interest in logic and the process of bringing
+              innovative ideas to fruition has been a lifelong passion. This
+              journey began during my undergraduate studies,
+              where I pursued a BSc in Mathematics and Economics, along with
+              International Relations in my hometown in
+              Poland. It was here that I was first introduced to the world of
+              coding, and I was immediately drawn to its
+              expressive and creative potential. After completing my degree, I
+              embarked on a career as a Sales
+              Representative in Cracow, gaining valuable insights into the
+              business world. However, my passion for
+              technology continued to grow and I made the bold decision to
+              pursue my ambitions in London. Dedicated to the
+              pursuit of continuous learning and skills development, I am
+              committed to evolving my expertise in this field.
+            </p>
+          </div>
+        </section>
+
+        <!-- contact -->
+        <section class="page-section contact" id="contact">
+          <div id="contact-header">
+            <h2>Contact Me</h2>
+          </div>
+          <div id="contact-list">
+            <ul>
+              <li><a href="#number">555.555.55555</a></li>
+              <li><a href="#email">me@ewelina.dev</a></li>
+              <li><a href="https://github.com/ewelinasobora">Github</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Spotify</a></li>
+            </ul>
+          </div>
+        </section>
+      </main>
     </div>
-  </section>
-
-  <div class="container-fluid">
-  <main class="page-wrapper">
-     <!-- portfolio container -->
-     <section class="page-section" id="work">
-      <div id="work-header">
-        <h2>Work</h2>
-      </div>
-      <div id="work-content">
-        <div id="portfolio-1" class="portfolioGridArea">
-          <div class="heading">
-            <p class="project-title">Surf Report</p>
-            <p class="project-description">MERN Stack</p>
-          </div>
-        </div>
-        <div id="portfolio-2" class="portfolioGridArea">
-          <div class="heading">
-            <p class="project-title">LED Wall</p>
-            <p class="project-description">Node/IoT</p>
-          </div>
-        </div>
-        <div id="portfolio-3" class="portfolioGridArea">
-          <div class="heading">
-            <p class="project-title">Calculator</p>
-            <p class="project-description">React/Javascript/CSS</p>
-          </div>
-        </div>
-        <div id="portfolio-4" class="portfolioGridArea">
-          <div class="heading">
-            <p class="project-title">Pastel Puzzles</p>
-            <p class="project-description">MERN Stack</p>
-          </div>
-        </div>
-        <div id="portfolio-5" class="portfolioGridArea">
-          <div class="heading">
-            <p class="project-title">Run Buddy</p>
-            <p class="project-description">HTML/CSS</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <div id="about-header">
-        <h2>About Me</h2>
-      </div>
-      <div id="about-paragraph">
-        <p>
-          Hi, my name is Ewelina and I specialize in web development. My interest in logic and the process of bringing
-          innovative ideas to fruition has been a lifelong passion. This journey began during my undergraduate studies,
-          where I pursued a BSc in Mathematics and Economics, along with International Relations in my hometown in
-          Poland. It was here that I was first introduced to the world of coding, and I was immediately drawn to its
-          expressive and creative potential. After completing my degree, I embarked on a career as a Sales
-          Representative in Cracow, gaining valuable insights into the business world. However, my passion for
-          technology continued to grow and I made the bold decision to pursue my ambitions in London. Dedicated to the
-          pursuit of continuous learning and skills development, I am committed to evolving my expertise in this field.
-        </p>
-      </div>
-    </section>
-
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <div id="contact-header">
-        <h2>Contact Me</h2>
-      </div>
-      <div id="contact-list">
-        <ul>
-          <li><a href="#number">555.555.55555</a></li>
-          <li><a href="#email">me@ewelina.dev</a></li>
-          <li><a href="https://github.com/ewelinasobora">Github</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Spotify</a></li>
-        </ul>
-      </div>
-    </section>
-  </main>
-</div>
-</body>
-
+  </body>
 </html>

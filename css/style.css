@@ -31,7 +31,7 @@
 
 .page-wrapper {
   margin-top: 50px;
-  margin-left: 80px;
+  margin-left: 50px;
   margin-right: 50px;
 }
 /* Work */
@@ -55,23 +55,23 @@
 }
 
 #portfolio-1 {
-  background-image: url("../../images/02-portfolio-1.jpg");
+  background-image: url("../images/02-portfolio-1.jpg");
 }
 
 #portfolio-2 {
-  background-image: url("../../images/02-portfolio-2.jpg");
+  background-image: url("../images/02-portfolio-2.jpg");
 }
 
 #portfolio-3 {
-  background-image: url("../../images/02-portfolio-3.jpg");
+  background-image: url("../images/02-portfolio-3.jpg");
 }
 
 #portfolio-4 {
-  background-image: url("../../images/02-portfolio-4.jpg");
+  background-image: url("../images/02-portfolio-4.jpg");
 }
 
 #portfolio-5 {
-  background-image: url("../../images/02-run-buddy.jpg");
+  background-image: url("../images/02-run-buddy.jpg");
 }
 
 .portfolioGridArea {
