@@ -54,5 +54,32 @@
   column-gap: 20px;
 }
 
+/* Skills */
+#skills {
+  display: flex;
+}
 
+#skills-header {
+  padding-right: 2%;
+  text-align: right;
+  width: 20%;
+}
 
+#skills-list {
+  border-left: #32343d solid;
+  width: 80%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#skills-list li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+#skills-list a {
+  position: relative;
+  color: var(--graphite);
+  text-decoration: underline;
+  text-decoration-thickness: 0.2em;
+}
