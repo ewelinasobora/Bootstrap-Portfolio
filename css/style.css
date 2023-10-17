@@ -83,3 +83,20 @@
   text-decoration: underline;
   text-decoration-thickness: 0.2em;
 }
+
+/* About Me */
+#about {
+  display: flex;
+}
+
+#about-header {
+  padding-right: 2%;
+  text-align: right;
+  width: 20%;
+}
+
+#about-section {
+  border-left: #32343d solid;
+  padding-left: 2%;
+  width: 80%;
+}
