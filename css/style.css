@@ -74,16 +74,15 @@
 
 #skills-list li {
   display: inline-block;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
-#skills-list a {
-  position: relative;
+#skills-list {
   color: var(--graphite);
-  text-decoration: underline;
   text-decoration-thickness: 0.2em;
+  display: flex;
+  justify-content: space-around;
 }
-
 /* About Me */
 #about {
   display: flex;
@@ -99,4 +98,13 @@
   border-left: #32343d solid;
   padding-left: 2%;
   width: 80%;
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+}
+
+.nav-item li{
+  color: yellow;
 }
