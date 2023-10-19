@@ -2,7 +2,7 @@
 
 Here is a basic portfolio website created using bootstrap, HTML and CSS. It showcases my work, skills, and provides a brief introduction about me.
 
-![portfolio](https://github.com/ewelinasobora/Bootstrap-Portfolio/assets/11948354/dae850c0-c581-4033-9261-a7d42e7ded40)
+![portfolio](https://github.com/ewelinasobora/Bootstrap-Portfolio/assets/11948354/90964b3f-975c-4ade-8544-fee7f330eb96)
 
 ## Table of Contents
 
