@@ -10,7 +10,8 @@
 
 #profile-image {
   border-radius: 10%;
-  width: 10%;
+  max-width: 10%;
+  max-height: 20%;
 }
 
 #hero-banner-info {
@@ -53,7 +54,23 @@
   row-gap: 10px;
   column-gap: 20px;
 }
+.btn-secondary {
+  box-shadow: 1px 2px 8px #271d7e;
+}
 
+.box {
+  transition: box-shadow .3s;
+  width: 40%;
+  height: 20%;
+  border-radius:10px;
+  border: 1px solid #ccc;
+  background: #46484a;
+  float: left;
+
+}
+.box:hover {
+  box-shadow: 0 0 11px rgba(150, 89, 89, 0.518);
+}
 /* Skills */
 #skills {
   display: flex;
