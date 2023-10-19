@@ -12,7 +12,7 @@ Here is a basic portfolio website created using bootstrap, HTML and CSS. It show
 
 ## Demo
 
-You can see my portfolio website [here](https://ewelinasobora.github.io/Bootstrap-Portfolio/)).
+You can see my portfolio website [here](https://ewelinasobora.github.io/Bootstrap-Portfolio/).
 
 ## Features
 
