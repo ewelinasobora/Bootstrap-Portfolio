@@ -8,7 +8,6 @@ Here is a basic portfolio website created using bootstrap, HTML and CSS. It show
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [License](#license)
 
 ## Demo
 

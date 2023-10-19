@@ -1,7 +1,14 @@
+:root {
+  --dark-grey: #212529;
+  --yellow: yellow;
+  --dark-blueish: #271d7e;
+}
+
 /* Hero Banner / Jumbotron */
 .nav-link {
   font-weight: bold;
 }
+
 .hero-banner-content {
   display: inline-flex;
   position: relative;
@@ -47,15 +54,12 @@
 }
 
 #work-content {
-  border-left: #32343d solid;
+  border-left: var(--dark-grey) solid;
   padding-left: 2%;
   width: 80%;
   gap: 10px;
   row-gap: 10px;
   column-gap: 20px;
-}
-.btn-secondary {
-  box-shadow: 1px 2px 8px #271d7e;
 }
 
 .box {
@@ -64,13 +68,14 @@
   height: 20%;
   border-radius:10px;
   border: 1px solid #ccc;
-  background: #46484a;
+  background: var(--dark-grey);
   float: left;
 
 }
 .box:hover {
-  box-shadow: 0 0 11px rgba(150, 89, 89, 0.518);
+  box-shadow: 0 0 11px var(--dark-blueish);
 }
+
 /* Skills */
 #skills {
   display: flex;
@@ -83,7 +88,7 @@
 }
 
 #skills-list {
-  border-left: #32343d solid;
+  border-left: var(--dark-grey) solid;
   width: 80%;
   font-size: 1.2rem;
   font-weight: bold;
@@ -95,7 +100,7 @@
 }
 
 #skills-list {
-  color: var(--graphite);
+  color: var(--dark-grey);
   text-decoration-thickness: 0.2em;
   display: flex;
   justify-content: space-around;
@@ -112,16 +117,16 @@
 }
 
 #about-section {
-  border-left: #32343d solid;
+  border-left: var(--dark-grey) solid;
   padding-left: 2%;
   width: 80%;
 }
 
 /* Footer */
 footer {
-  background-color: #212529;
+  background-color: var(--dark-grey);
 }
 
 .nav-item li{
-  color: yellow;
+  color: var(--yellow);
 }
